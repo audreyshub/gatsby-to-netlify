@@ -161,6 +161,7 @@ const IndexPage = () => {
             }
         </ul>
         <form name="contact" method="POST" data-netlify="true" action="/thank-you">
+            <input type="hidden" name="form-name" value="contact" />
             <p>
                 <label >Your Name:
                     <input type="text" name="name"/></label>
