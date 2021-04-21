@@ -160,7 +160,7 @@ const IndexPage = () => {
                 </li>))
             }
         </ul>
-        <form name="contact" method="POST" data-netlify="true" action=/thank-you>
+        <form name="contact" method="POST" data-netlify="true" action="/thank-you">
             <p>
                 <label >Your Name:
                     <input type="text" name="name"/></label>
