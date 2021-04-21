@@ -162,7 +162,7 @@ const IndexPage = () => {
         </ul>
         <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" action="/thanks">
             <input type="hidden" name="form-name" value="contact" />
-            <p class="hidden">
+            <p hidden>
                 <label >Don't fill this out if you're human:
                     <input name="bot-field"/></label>
             </p>
