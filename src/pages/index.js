@@ -160,9 +160,9 @@ const IndexPage = () => {
                 </li>))
             }
         </ul>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true" action=/thank-you>
             <p>
-                <label style={paragraphStyles}>Your Name:
+                <label >Your Name:
                     <input type="text" name="name"/></label>
             </p>
             <p>
