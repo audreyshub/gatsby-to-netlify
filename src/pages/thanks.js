@@ -1,6 +1,5 @@
 import * as React from "react"
 
 export default () => (
-    <h1>Thank you!</h1>
-    <p>This is a custom thank you page for form submissions</p>
+    <h1>Thank you for your form submissions!</h1>
 )
