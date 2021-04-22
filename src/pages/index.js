@@ -1,4 +1,5 @@
 import * as React from "react"
+import ReCAPTCHA from "react-google-recaptcha"
 
 // styles
 const pageStyles = {
@@ -191,7 +192,7 @@ const IndexPage = () => {
                     <textarea name="message"></textarea>
                 </label>
             </p>
-            <div class="g-recaptcha" data-sitekey="6LeLKrUaAAAAAJ_y5rqSyUMsWgNXicphVMBn1-Mr"></div>
+            <ReCAPTCHA sitekey="6LeLKrUaAAAAAJ_y5rqSyUMsWgNXicphVMBn1-Mr" />
             <p>
                 <button type="submit">Send</button>
             </p>
