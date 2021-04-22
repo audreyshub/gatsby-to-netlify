@@ -168,14 +168,17 @@ const IndexPage = () => {
             </p>
             <p>
                 <label >Your Name:
+                    <br />
                     <input type="text" name="name"/></label>
             </p>
             <p>
                 <label>Your Email:
+                    <br />
                     <input type="email" name="email"/></label>
             </p>
             <p>
                 <label>Your Role:
+                    <br />
                     <select name="role[]" multiple="multiple">
                         <option value="leader">Leader</option>
                         <option value="follower">Follower</option>
@@ -184,10 +187,11 @@ const IndexPage = () => {
             </p>
             <p>
                 <label>Message:
+                    <br />
                     <textarea name="message"></textarea>
                 </label>
             </p>
-            <div data-netlify-recaptcha="true"></div>
+            <div class="g-recaptcha" data-sitekey="6LeLKrUaAAAAAJ_y5rqSyUMsWgNXicphVMBn1-Mr"></div>
             <p>
                 <button type="submit">Send</button>
             </p>
