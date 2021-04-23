@@ -4,6 +4,13 @@
   functions = "netlify/functions"
   publish = "public"
 
+[[redirects]]
+  from = "/bin"
+  to = "http://futuregerald-requestbin.herokuapp.com/1axjezv1"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
   #[[redirects]]
