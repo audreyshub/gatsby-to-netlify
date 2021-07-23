@@ -175,7 +175,7 @@ const IndexPage = () => {
             <p>
                 <label>Your Email:
                     <br />
-                    <input type="email" name="email"/></label>
+                    <input type="email" name="email"></label>
             </p>
             <p>
                 <label>Your Role:
