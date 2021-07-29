@@ -161,7 +161,7 @@ const IndexPage = () => {
                 </li>))
             }
         </ul>
-        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" action="/thanks" secure >
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" action="/thanks" data-secure >
             <input type="hidden" name="form-name" value="contact" />
             <p hidden>
                 <label >Don't fill this out if you're human:
