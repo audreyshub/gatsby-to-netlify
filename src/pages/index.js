@@ -161,7 +161,7 @@ const IndexPage = () => {
                 </li>))
             }
         </ul>
-        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" action="/thanks">
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" action="/thanks" secure >
             <input type="hidden" name="form-name" value="contact" />
             <p hidden>
                 <label >Don't fill this out if you're human:
@@ -175,7 +175,7 @@ const IndexPage = () => {
             <p>
                 <label>Your Email:
                     <br />
-                    <input type="email" name="email" /></label>
+                    <input type="email" name="email" data-secure-field /></label>
             </p>
             <p>
                 <label>Your Role:
